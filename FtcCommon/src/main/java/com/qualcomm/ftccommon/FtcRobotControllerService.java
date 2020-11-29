@@ -199,7 +199,7 @@ public class FtcRobotControllerService extends Service implements NetworkConnect
        *
        * TODO: should be reviewed
        */
-       Thread.sleep(USB_WAIT);
+//       Thread.sleep(USB_WAIT);
     }
 
     void initializeEventLoopAndRobot() throws RobotCoreException {
